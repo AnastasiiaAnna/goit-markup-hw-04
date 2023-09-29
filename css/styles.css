@@ -85,7 +85,7 @@ img {
   gap: 40px;
 }
 
-.line-header::after {
+.header-link::after {
   content: "";
   position: absolute;
   left: 0;
