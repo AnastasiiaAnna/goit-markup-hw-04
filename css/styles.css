@@ -85,10 +85,11 @@ img {
   gap: 40px;
 }
 
-.header-link::after {
+.current::after {
   content: "";
   position: absolute;
   left: 0;
+  width: 100%;
   bottom: -1px;
   height: 4px;
   background-color: #404bbf;
@@ -99,6 +100,10 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-link.current {
+  color:#404bbf;
+}
+
 .header-link {
   color: #2e2f42;
   font-family: Roboto;
@@ -107,7 +112,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  color: #404bbf;
   position: relative;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -133,7 +137,7 @@ img {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-menu {
@@ -149,11 +153,12 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-space-name {
