@@ -285,6 +285,13 @@ img {
   padding: 32px 0;
 }
 
+.team-social-networks {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
+}
+
 .team-caption {
   color: #2e2f42;
   text-align: center;
