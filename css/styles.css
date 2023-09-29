@@ -303,6 +303,12 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.link-social-networks:hover,
+.link-social-networks:focus {
+    background-color: #404bbf;
+}
+
+
 .team-networks-icon {
   fill: #f4f4fd;
 }
