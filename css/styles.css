@@ -379,9 +379,9 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.potrtfolio-space-list:hover .overlay, 
-.potrtfolio-space-list:focus .overlay {
-  transform: translateY(0);
+.portfolio-space-list:hover .overlay, 
+.portfolio-space-list:focus .overlay {
+  transform: translateY(0%);
 }
 
 .portfolio-space-list:hover, 
