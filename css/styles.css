@@ -423,7 +423,7 @@ img {
   padding: 100px 0;
 }
 
-.footer-content {
+.footer-contentainer {
   display: flex;
   align-items: baseline;
 }
